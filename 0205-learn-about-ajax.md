@@ -5,7 +5,7 @@ Ajax对于Javascript来说是一个伟大的进步，它使得我们可不需通
 
 ### 常用参数
 
-名称 | 描述
+名称 | 描述 
 --------- | -------------
 async | 默认是 true
 beforeSend(xhr) | 默认是 true
