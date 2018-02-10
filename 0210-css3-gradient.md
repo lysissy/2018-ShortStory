@@ -1,5 +1,5 @@
-#CSS3 Gradient
-css3添加了很多视觉交互的属性方法，经常用的有<br>
+# CSS3 Gradient
+css3添加了很多视觉交互的属性方法，经常用的有：<br>
 transform提供了图形变换相关的方法，gradient提供了颜色渐变的方法。
 animation提供了类似逐帧动画的效果，keyframe关键帧提供了类似补间动画的效果。<br>
 既丰富了静态页面，又提供了简单动画，大大提高页面的体验度。今天提到的gradient方法，还是很值得研究一下的。
