@@ -27,7 +27,15 @@ height:100%;vertical-align:middle;(缺点：需要考虑inline-block间隔中的
 参考： [Web开发中跨域的几种解决方案 | Harttle Land](http://harttle.land/2015/10/10/cross-origin.html)
 
 
-* delegate事件委托的原理，和bind以及on方法的区别
+##### delegate事件委托的原理，和bind以及on方法的区别
+* on是jQuery中最基础的方法
+``` javascript
+delegate: function( selector, types, data, fn ) {
+    return this.on( types, selector, data, fn );
+}
+```
+参考资料：[jQuery事件：bind、delegate、on的区别 | Harttle Land](http://harttle.land/2015/06/26/jquery-event.html)
+
 * GET请求和POST请求的区别？
 * VUE实现的生命周期
 * VUE事件绑定
