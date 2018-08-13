@@ -24,7 +24,9 @@ Expires | GMT时间 | 低 | 服务器时间和本地时间可能不一致
 Pragma | no-cache: 不直接使用缓存，开始服务器新鲜度判定 | 中 | 被废弃
 Cache-Control | 1. max-age:(单位秒): 相对时间，强缓存必备 <br> 2. no-cache: 不直接使用缓存，开始服务器新鲜度判定。<br> 3. no-store: 每次都下载最新资源。<br> 4. public/private: 是否只能被单个用户保存  | 高 | 
 
-**备注：**[服务器新鲜度判定]()
+**备注：**关于服务器新鲜度判定，想了解的可以看下这两篇文章
++ [HTTP-缓存机制](https://earthsplitter.github.io/2017/03/22/HTTP-%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6/)
++ [你应该知道的前端——缓存](https://juejin.im/post/5ae081aaf265da0b767d263a)
 
 #### 2.1.2 协商缓存
 > 成对出现
