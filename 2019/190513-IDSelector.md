@@ -16,7 +16,7 @@ $("#abc(奇葩)")
 ```
 
 运行结果如下：
-![error.png-w500](./media/0513_error.png)
+<img src="./media/0513_error.png" alt="error.png" width="500px"/>
 
 反而是兼容性更好的jQuery出了错，究竟是为什么呢？
 
