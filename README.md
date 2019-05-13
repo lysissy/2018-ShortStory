@@ -2,6 +2,7 @@
 
 ## 原创
 
++ [ID选择器](2019/190513-IDSelector.md)
 + [Form表单中的submit陷阱](2018/180607-form-submit.md)
 + [登录页面的一些细节](2018/180202-about-login-details.md)
 + [jQuery中ajax的一些常用参数介绍](2018/180205-learn-about-ajax.md)
