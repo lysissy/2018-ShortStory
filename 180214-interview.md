@@ -1,25 +1,25 @@
-### 面试经验
-XX游戏公司，技术氛围优良，待遇水平标准，主要发展海外市场，外国人挺多。
+> 面试背景：游戏公司，技术氛围优良，待遇水平标准，主要发展海外市场。
 
-#### 技术 一面
+## 一面
 
-##### 垂直水平居中的几种实现方式<br>
-1. 绝对定位+margin:auto
-2. 绝对定位+transform
-3. 绝对定位+marginLeft+marginTop(前提：固定宽度+固定高度；思考：为什么不能用50%？)
-    · margin中的百分比是针对父级计算的。
-4. 父级display:table； 子级display:table-cell
-5. 父级text-align:center;子级display:inline-block; vertical-align:middle;父级伪元素diaplay:inline-block;
-height:100%;vertical-align:middle;(缺点：需要考虑inline-block间隔中的留白，如代码换行符)
-6. 父级display:flex;-webkit-align-items:center;-webkit-justify-content:center;
+### 垂直水平居中的几种实现方式
+1. margin:auto (宽度不足100%，盒模型水平居中)
+2. 绝对定位 + marginLeft + marginTop
+    (固定宽度+固定高度；思考：为什么不能用50%？)
+    margin中的百分比是针对父级计算的。    
+3. 绝对定位 + transform（不固定宽度+不固定高度）
+4. 父级display:table； 子级display:table-cell 
+    （table盒模型）
+5. 父级text-align:center; 子级display:inline-block; vertical-align:middle;父级伪元素height:100%; display:inline-block; vertical-align:middle;(缺点：需要考虑inline-block间隔中的留白，如代码换行符)
+6. 父级display:flex;-webkit-align-items:center;-webkit-justify-content:center;（flex盒模型）
 
 参考： [[分享] 纯CSS完美实现垂直水平居中的6种方式 - Html5 APP 开发 - SegmentFault 思否](https://segmentfault.com/a/1190000006108996)
 
 
-##### 实现跨域的几种方式
+### 实现跨域的几种方式
 1. 设置document.domain
 2. 有src属性的标签（img, script, link）
-3. JSONP，应用广泛，尤其是jquery对其支持度很好（$.get, $.getJSON）
+3. JSONP，应用广泛，尤其是jQuery对其支持度很好（$.get, $.getJSON）
 4. navigation对象（IE6\7），window.name、URL中的hash值都可以用来页面间通信。
 5. 跨域资源共享CORS （Cross Origin Resource Share）
 6. window.postMessage
